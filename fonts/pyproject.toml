@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "font"
+version = "0.1.0"
+description = "StrongerFox font processing"
+authors = ["thodnev <thodnev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fonttools = {extras = ["lxml", "pathops", "plot", "repacker", "unicode", "woff"], version = "^4.53.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
