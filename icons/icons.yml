@@ -1,0 +1,14 @@
+# This file contains a selection of icons used in project
+# in form of:
+#     icon_name: resource[:icon_id]
+# Where:
+#     icon_name   - Locally designated icon name
+#                   (as we store it)
+#     resource    - Name of the source from which we get it
+#                   (i.e. reshot for reshot.com)
+#     icon_id     - Name of the icon at the resource
+#                   (optional, if needed)
+# Examples:
+#     arrow-up: reshot:chevron-up-WTDPGZMKY8
+
+arrow-up: reshot:chevron-up-WTDPGZMKY8

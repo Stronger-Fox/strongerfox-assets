@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "icons"
+version = "0.1.0"
+description = "StrongerFox icons collection"
+authors = ["thodnev <thodnev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruamel-yaml = "^0.18.6"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.40.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.yapf]
+based_on_style = "pep8"
+column_limit = 119      # nowadays screens are wider than 80 symbols
